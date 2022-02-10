@@ -1,4 +1,4 @@
-module github.com/dashevo/dashd-go
+module github.com/alexdcox/dashd-go
 
 require (
 	github.com/btcsuite/btcd v0.20.1-beta
