@@ -1460,7 +1460,7 @@ const (
 
 	// bitcoindVersionPrefix specifies the prefix included in every bitcoind
 	// version exposed through GetNetworkInfo.
-	bitcoindVersionPrefix = "/Satoshi:"
+	bitcoindVersionPrefix = "/Dash Core:"
 
 	// bitcoindVersionSuffix specifies the suffix included in every bitcoind
 	// version exposed through GetNetworkInfo.
