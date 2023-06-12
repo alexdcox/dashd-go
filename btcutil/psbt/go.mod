@@ -3,9 +3,6 @@ module github.com/dashpay/dashd-go/btcutil/psbt
 go 1.18
 
 require (
-	github.com/dashpay/dashd-go v0.24.0
-	github.com/dashpay/dashd-go/btcec/v2 v2.1.0
-	github.com/dashpay/dashd-go/btcutil v1.2.0
 	github.com/davecgh/go-spew v1.1.1
 )
 
@@ -15,8 +12,3 @@ require (
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
 )
 
-replace github.com/dashpay/dashd-go/btcec/v2 => ../../btcec
-
-replace github.com/dashpay/dashd-go/btcutil => ../
-
-replace github.com/dashpay/dashd-go => ../..

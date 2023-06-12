@@ -6,8 +6,8 @@ require (
 	github.com/btcsuite/goleveldb v1.0.0
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/btcsuite/winsvc v1.0.0
-	github.com/dashpay/dashd-go/btcec/v2 v2.1.0
-	github.com/dashpay/dashd-go/btcutil v1.2.0
+	github.com/dashpay/dashd-go/btcec/v2 v2.0.0-00010101000000-000000000000
+	github.com/dashpay/dashd-go/btcutil v0.0.0-00010101000000-000000000000
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/jessevdk/go-flags v1.4.0
@@ -26,7 +26,6 @@ require (
 )
 
 replace (
-	github.com/dashpay/dashd-go => ./
 	github.com/dashpay/dashd-go/btcec/v2 => ./btcec
 	github.com/dashpay/dashd-go/btcutil => ./btcutil
 )
