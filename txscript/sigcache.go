@@ -7,9 +7,9 @@ package txscript
 import (
 	"sync"
 
-	"github.com/dashpay/dashd-go/btcec/v2"
-	"github.com/dashpay/dashd-go/btcec/v2/ecdsa"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/btcec"
+	"github.com/alexdcox/dashd-go/btcec/ecdsa"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

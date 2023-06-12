@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/btcutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

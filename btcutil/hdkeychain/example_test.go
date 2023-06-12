@@ -7,8 +7,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/dashpay/dashd-go/btcutil/hdkeychain"
-	"github.com/dashpay/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/btcutil/hdkeychain"
+	"github.com/alexdcox/dashd-go/chaincfg"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

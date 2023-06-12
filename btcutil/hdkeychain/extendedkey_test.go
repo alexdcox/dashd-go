@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dashpay/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/chaincfg"
 	secp_ecdsa "github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 

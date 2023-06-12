@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/dashpay/dashd-go/chaincfg"
+	. "github.com/alexdcox/dashd-go/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

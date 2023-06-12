@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 )
 
 // maxFlagsPerMerkleBlock is the maximum number of flag bytes that could

@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dashpay/dashd-go/btcec/v2"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/btcec"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // TestCalcMinRequiredTxRelayFee tests the calcMinRequiredTxRelayFee API.

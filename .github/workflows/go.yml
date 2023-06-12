@@ -1,5 +1,5 @@
 name: Build and Test
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 env:
   # go needs absolute directories, using the $HOME variable doesn't work here.

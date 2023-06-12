@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcutil/base58"
+	"github.com/alexdcox/dashd-go/btcutil/base58"
 )
 
 var stringTests = []struct {

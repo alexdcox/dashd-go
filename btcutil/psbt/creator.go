@@ -5,7 +5,7 @@
 package psbt
 
 import (
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // MinTxVersion is the lowest transaction version that we'll permit.

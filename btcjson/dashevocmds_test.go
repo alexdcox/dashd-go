@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcjson"
+	"github.com/alexdcox/dashd-go/btcjson"
 )
 
 func pString(s string) *string                       { return &s }

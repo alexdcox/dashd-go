@@ -11,10 +11,9 @@ import (
 	"bytes"
 	"encoding/base64"
 	"errors"
-
 	"io"
 
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // psbtMagicLength is the length of the magic bytes used to signal the start of

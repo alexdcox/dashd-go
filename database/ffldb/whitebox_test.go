@@ -17,12 +17,12 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/database"
+	"github.com/alexdcox/dashd-go/wire"
 	"github.com/btcsuite/goleveldb/leveldb"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/database"
-	"github.com/dashpay/dashd-go/wire"
 )
 
 var (

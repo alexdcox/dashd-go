@@ -122,8 +122,8 @@ const (
 type LLMQType int
 
 // Enum of LLMQTypes
-// See https://github.com/dashpay/dips/blob/master/dip-0006.md#current-llmq-types and
-// https://github.com/dashpay/dash/blob/master/src/llmq/params.h
+// See https://github.com/alexdcox/dips/blob/master/dip-0006.md#current-llmq-types and
+// https://github.com/alexdcox/dash/blob/master/src/llmq/params.h
 const (
 	LLMQType_50_60            LLMQType = 1   // 50 members, 30 (60%) threshold, one per hour
 	LLMQType_400_60           LLMQType = 2   // 400 members, 240 (60%) threshold, one every 12 hours
@@ -174,7 +174,7 @@ func GetLLMQType(name string) LLMQType {
 
 // Name returns name of the LLMQType.
 // Returns empty string when the type is invalid.
-// See https://github.com/dashpay/dash/blob/master/src/llmq/params.h
+// See https://github.com/alexdcox/dash/blob/master/src/llmq/params.h
 func (t LLMQType) Name() string {
 	for name, item := range llmqTypes {
 		if t == item {
@@ -186,7 +186,7 @@ func (t LLMQType) Name() string {
 
 // Validate checks if provided LLMQ type is valid, eg. if it's one of LLMQ types
 // defined in accordance with DIP-0006.
-// See https://github.com/dashpay/dips/blob/master/dip-0006/llmq-types.md
+// See https://github.com/alexdcox/dips/blob/master/dip-0006/llmq-types.md
 func (t LLMQType) Validate() error {
 	if (t >= LLMQType_50_60 && t <= LLMQType_25_67) || (t >= LLMQType_TEST && t <= LLMQType_DEVNET_PLATFORM) {
 		return nil

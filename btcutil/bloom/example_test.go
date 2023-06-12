@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/dashpay/dashd-go/btcutil/bloom"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/btcutil/bloom"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

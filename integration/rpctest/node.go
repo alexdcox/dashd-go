@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/dashpay/dashd-go/btcutil"
-	rpc "github.com/dashpay/dashd-go/rpcclient"
+	"github.com/alexdcox/dashd-go/btcutil"
+	rpc "github.com/alexdcox/dashd-go/rpcclient"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

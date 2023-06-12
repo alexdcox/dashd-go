@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dashpay/dashd-go/database"
+	"github.com/alexdcox/dashd-go/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/database"
-	_ "github.com/dashpay/dashd-go/database/ffldb"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/database"
+	_ "github.com/alexdcox/dashd-go/database/ffldb"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 var (

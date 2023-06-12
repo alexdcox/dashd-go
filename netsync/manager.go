@@ -12,14 +12,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dashpay/dashd-go/blockchain"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/database"
-	"github.com/dashpay/dashd-go/mempool"
-	peerpkg "github.com/dashpay/dashd-go/peer"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/blockchain"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/database"
+	"github.com/alexdcox/dashd-go/mempool"
+	peerpkg "github.com/alexdcox/dashd-go/peer"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 const (

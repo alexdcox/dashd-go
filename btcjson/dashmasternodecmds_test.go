@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcjson"
+	"github.com/alexdcox/dashd-go/btcjson"
 )
 
 // TestDashMasternodeCmds tests all of the btcd extended commands marshal and unmarshal

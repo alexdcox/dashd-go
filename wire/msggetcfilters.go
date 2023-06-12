@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 )
 
 // MaxGetCFiltersReqRange the maximum number of filters that may be requested in

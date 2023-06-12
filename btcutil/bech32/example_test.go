@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/dashpay/dashd-go/btcutil/bech32"
+	"github.com/alexdcox/dashd-go/btcutil/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

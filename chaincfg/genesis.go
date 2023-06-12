@@ -7,8 +7,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

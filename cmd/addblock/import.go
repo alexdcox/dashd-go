@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dashpay/dashd-go/blockchain"
-	"github.com/dashpay/dashd-go/blockchain/indexers"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/database"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/blockchain"
+	"github.com/alexdcox/dashd-go/blockchain/indexers"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/database"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 var zeroHash = chainhash.Hash{}

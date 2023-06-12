@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dashpay/dashd-go/blockchain"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/blockchain"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 const (

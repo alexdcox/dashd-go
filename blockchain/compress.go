@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/dashpay/dashd-go/btcec/v2"
-	"github.com/dashpay/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/btcec"
+	"github.com/alexdcox/dashd-go/txscript"
 )
 
 // -----------------------------------------------------------------------------

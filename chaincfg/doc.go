@@ -25,8 +25,8 @@
 //	        "fmt"
 //	        "log"
 //
-//	        "github.com/dashpay/dashd-go/btcutil"
-//	        "github.com/dashpay/dashd-go/chaincfg"
+//	        "github.com/alexdcox/dashd-go/btcutil"
+//	        "github.com/alexdcox/dashd-go/chaincfg"
 //	)
 //
 //	var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

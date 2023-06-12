@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 )
 
 // MsgGetCFHeaders is a message similar to MsgGetHeaders, but for committed

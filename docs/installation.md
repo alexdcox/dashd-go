@@ -1,6 +1,6 @@
 # Installation
 
-The first step is to install btcd.  See one of the following sections for
+The first step is to install btcd. See one of the following sections for
 details on how to install on the supported operating systems.
 
 ## Requirements
@@ -10,7 +10,7 @@ details on how to install on the supported operating systems.
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the btcsuite developers. To
 verify the signature perform the following:
 
 * Download the Conformal public key:
@@ -44,9 +44,9 @@ go version
 go env GOROOT GOPATH
 ```
 
-NOTE: The `GOROOT` and `GOPATH` above must not be the same path.  It is
+NOTE: The `GOROOT` and `GOPATH` above must not be the same path. It is
 recommended that `GOPATH` is set to a directory in your home directory such as
-`~/goprojects` to avoid write permission issues.  It is also recommended to add
+`~/goprojects` to avoid write permission issues. It is also recommended to add
 `$GOPATH/bin` to your `PATH` at this point.
 
 * Run the following commands to obtain btcd, all dependencies, and install it:
@@ -57,7 +57,7 @@ cd $GOPATH/src/github.com/btcsuite/btcd
 GO111MODULE=on go install -v . ./cmd/...
 ```
 
-* btcd (and utilities) will now be installed in ```$GOPATH/bin```.  If you did
+* btcd (and utilities) will now be installed in ```$GOPATH/bin```. If you did
   not already add the bin directory to your system path during Go installation,
   we recommend you do so now.
 

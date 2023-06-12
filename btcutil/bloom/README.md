@@ -7,8 +7,8 @@ bloom
 
 Package bloom provides an API for dealing with bitcoin-specific bloom filters.
 
-A comprehensive suite of tests is provided to ensure proper functionality.  See
-`test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
+A comprehensive suite of tests is provided to ensure proper functionality. See
+`test_coverage.txt` for the gocov coverage report. Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
 report.
 

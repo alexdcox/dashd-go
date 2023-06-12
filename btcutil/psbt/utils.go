@@ -12,8 +12,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // WriteTxWitness is a utility function due to non-exported witness

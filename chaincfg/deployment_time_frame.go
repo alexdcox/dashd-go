@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 var (

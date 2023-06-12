@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dashpay/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/txscript"
 )
 
 // TestCheckBlockScripts ensures that validating the all of the scripts in a

@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/alexdcox/dashd-go/database"
 	"github.com/btcsuite/btclog"
-	"github.com/dashpay/dashd-go/database"
-	flags "github.com/jessevdk/go-flags"
+	"github.com/jessevdk/go-flags"
 )
 
 const (

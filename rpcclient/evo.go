@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/dashpay/dashd-go/btcjson"
+	"github.com/alexdcox/dashd-go/btcjson"
 )
 
 // ----------------------------- bls generate -----------------------------

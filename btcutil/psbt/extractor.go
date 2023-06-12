@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

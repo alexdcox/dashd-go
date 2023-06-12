@@ -6,13 +6,13 @@ btcutil
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/btcsuite/btcd/btcutil)
 
 Package btcutil provides bitcoin-specific convenience functions and types.
-A comprehensive suite of tests is provided to ensure proper functionality.  See
-`test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
+A comprehensive suite of tests is provided to ensure proper functionality. See
+`test_coverage.txt` for the gocov coverage report. Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
 report.
 
 This package was developed for btcd, an alternative full-node implementation of
-bitcoin which is under active development by Conformal.  Although it was
+bitcoin which is under active development by Conformal. Although it was
 primarily written for btcd, this package has intentionally been designed so it
 can be used as a standalone package for any projects needing the functionality
 provided.
@@ -26,7 +26,7 @@ $ go get -u github.com/btcsuite/btcd/btcutil
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the btcsuite developers. To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

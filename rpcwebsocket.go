@@ -20,15 +20,15 @@ import (
 	"sync"
 	"time"
 
+	"github.com/alexdcox/dashd-go/blockchain"
+	"github.com/alexdcox/dashd-go/btcjson"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/database"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 	"github.com/btcsuite/websocket"
-	"github.com/dashpay/dashd-go/blockchain"
-	"github.com/dashpay/dashd-go/btcjson"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/database"
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
 	"golang.org/x/crypto/ripemd160"
 )
 

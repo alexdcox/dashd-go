@@ -7,7 +7,7 @@ package hdkeychain_test
 import (
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcutil/hdkeychain"
+	"github.com/alexdcox/dashd-go/btcutil/hdkeychain"
 )
 
 // bip0032MasterPriv1 is the master private extended key from the first set of

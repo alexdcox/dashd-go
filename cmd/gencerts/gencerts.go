@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dashpay/dashd-go/btcutil"
-	flags "github.com/jessevdk/go-flags"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/jessevdk/go-flags"
 )
 
 type config struct {

@@ -1,7 +1,7 @@
 chainhash
 =========
 
-[![Build Status](https://github.com/dashpay/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
+[![Build Status](https://github.com/alexdcox/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/btcsuite/btcd/chaincfg/chainhash)
 =======
@@ -18,7 +18,7 @@ go get -u github.com/btcsuite/btcd/chaincfg/chainhash
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the btcsuite developers. To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

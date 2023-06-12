@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dashpay/dashd-go/addrmgr"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/addrmgr"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

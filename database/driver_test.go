@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dashpay/dashd-go/database"
-	_ "github.com/dashpay/dashd-go/database/ffldb"
+	"github.com/alexdcox/dashd-go/database"
+	_ "github.com/alexdcox/dashd-go/database/ffldb"
 )
 
 var (

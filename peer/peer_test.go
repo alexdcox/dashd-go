@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/peer"
+	"github.com/alexdcox/dashd-go/wire"
 	"github.com/btcsuite/go-socks/socks"
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
-	"github.com/dashpay/dashd-go/peer"
-	"github.com/dashpay/dashd-go/wire"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

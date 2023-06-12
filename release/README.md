@@ -20,6 +20,7 @@ The CHANGES file should be a changelog that roughly mirrors the release notes.
 Generally, the PRs that have been merged since the last release have been
 listed in the CHANGES file and categorized.
 For example, these changes have had the following format in the past:
+
 ```
 Changes in X.YY.Z (Month Day Year):
   - Protocol and Network-related changes:
@@ -39,15 +40,18 @@ Changes in X.YY.Z (Month Day Year):
 
 If the previous tag is, for example, `vA.B.C`, then you can get the list of
 contributors (from `vA.B.C` until the current `HEAD`) using the following command:
+
 ```bash
 git log vA.B.C..HEAD --pretty="%an" | sort | uniq
 ```
+
 After committing changes to the CHANGES file, the tagged release commit
 should be created.
 
 The tagged commit should be a commit that bumps version numbers in `version.go`
 and `cmd/btcctl/version.go`.
 For example (taken from [f3ec130](https://github.com/btcsuite/btcd/commit/f3ec13030e4e828869954472cbc51ac36bee5c1d)):
+
 ```diff
 diff --git a/cmd/btcctl/version.go b/cmd/btcctl/version.go
 index 2195175c71..f65cacef7e 100644
@@ -102,13 +106,16 @@ Now that the directory `btcd-<TAG>` is created, the manifest file needs to be
 signed by a maintainer and the release files need to be published to GitHub.
 
 Sign the `manifest-<TAG>.txt` file like so:
+
 ```sh
 gpg --sign --detach-sig manifest-<TAG>.txt
 ```
+
 This will create a file named `manifest-<TAG>.txt.sig`, which will must
 be included in the release files later.
 
 #### Note before publishing
+
 Before publishing, go through the reproducible build process that is outlined
 in this document with the files created from `release/release.sh`. This includes
 verifying commit and tag signatures using `git verify-commit` and git `verify-tag`
@@ -168,7 +175,7 @@ and `go` (matching the same version used in the release):
 4. Extract the release binaries contained within the archive, compute their
    hashes as done above, and note them down.
 5. Ensure `go` is installed, matching the same version as noted in the release
-   notes. 
+   notes.
 6. Obtain a copy of `btcd`'s source code with `git clone
    https://github.com/btcsuite/btcd` and checkout the source code of the
    release with `git checkout <TAG>`.

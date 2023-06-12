@@ -8,8 +8,8 @@ hdkeychain
 Package hdkeychain provides an API for bitcoin hierarchical deterministic
 extended keys (BIP0032).
 
-A comprehensive suite of tests is provided to ensure proper functionality.  See
-`test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
+A comprehensive suite of tests is provided to ensure proper functionality. See
+`test_coverage.txt` for the gocov coverage report. Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
 report.
 
@@ -29,10 +29,10 @@ report.
   transations and generate payment scripts
 - Uses the btcec package which is highly optimized for secp256k1
 - Code examples including:
-  - Generating a cryptographically secure random seed and deriving a
-    master node from it
-  - Default HD wallet layout as described by BIP0032
-  - Audits use case as described by BIP0032
+    - Generating a cryptographically secure random seed and deriving a
+      master node from it
+    - Default HD wallet layout as described by BIP0032
+    - Audits use case as described by BIP0032
 - Comprehensive test coverage including the BIP0032 test vectors
 - Benchmarks
 

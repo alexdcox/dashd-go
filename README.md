@@ -9,26 +9,27 @@ dashd-go (in development - not working)
 dashd-go is an alternative full node dash implementation written in Go (golang).
 
 This project is currently not in active development, however the rpc-client it
-contains is.  It is extremely stable and has been in production use since October 2013.
+contains is. It is extremely stable and has been in production use since October 2013.
 
 It properly downloads, validates, and serves the blockchain using the exact
-rules (including consensus bugs) for block acceptance as Bitcoin Core.  We have
-taken great care to avoid btcd causing a fork to the blockchain.  It includes a
+rules (including consensus bugs) for block acceptance as Bitcoin Core. We have
+taken great care to avoid btcd causing a fork to the blockchain. It includes a
 full block validation testing framework which contains all of the 'official'
 block acceptance tests (and some additional ones) that is run on every pull
-request to help ensure it properly follows consensus.  Also, it passes all of
+request to help ensure it properly follows consensus. Also, it passes all of
 the JSON test data in the Bitcoin Core code.
 
 It also properly relays newly mined blocks, maintains a transaction pool, and
-relays individual transactions that have not yet made it into a block.  It
+relays individual transactions that have not yet made it into a block. It
 ensures all individual transactions admitted to the pool follow the rules
 required by the block chain and also includes more strict checks which filter
 transactions based on miner requirements ("standard" transactions).
 
 One key difference between dashd-go and Dash Core is that dashd-go does *NOT* include
-wallet functionality and this was a very intentional design decision.  See the
-blog entry [here](https://web.archive.org/web/20171125143919/https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
-for more details.  This means you can't actually make or receive payments
+wallet functionality and this was a very intentional design decision. See the
+blog
+entry [here](https://web.archive.org/web/20171125143919/https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon)
+for more details. This means you can't actually make or receive payments
 directly with dashd-go.
 
 ## Requirements
@@ -51,9 +52,9 @@ go version
 go env GOROOT GOPATH
 ```
 
-NOTE: The `GOROOT` and `GOPATH` above must not be the same path.  It is
+NOTE: The `GOROOT` and `GOPATH` above must not be the same path. It is
 recommended that `GOPATH` is set to a directory in your home directory such as
-`~/goprojects` to avoid write permission issues.  It is also recommended to add
+`~/goprojects` to avoid write permission issues. It is also recommended to add
 `$GOPATH/bin` to your `PATH` at this point.
 
 - Run the following commands to obtain btcd, all dependencies, and install it:
@@ -63,7 +64,7 @@ cd $GOPATH/src/github.com/btcsuite/btcd
 GO111MODULE=on go install -v . ./cmd/...
 ```
 
-- dashd-go (and utilities) will now be installed in ```$GOPATH/bin```.  If you did
+- dashd-go (and utilities) will now be installed in ```$GOPATH/bin```. If you did
   not already add the bin directory to your system path during Go installation,
   we recommend you do so now.
 
@@ -104,7 +105,8 @@ is used for this project.
 
 ## Documentation
 
-The documentation is a work-in-progress.  It is located in the [docs](https://github.com/btcsuite/btcd/tree/master/docs) folder.
+The documentation is a work-in-progress. It is located in the [docs](https://github.com/btcsuite/btcd/tree/master/docs)
+folder.
 
 ## Release Verification
 

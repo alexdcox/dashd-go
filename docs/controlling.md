@@ -1,8 +1,8 @@
 # Controlling and querying btcd via btcctl
 
 btcctl is a command line utility that can be used to both control and query btcd
-via [RPC](http://www.wikipedia.org/wiki/Remote_procedure_call).  btcd does
-**not** enable its RPC server by default;  You must configure at minimum both an
+via [RPC](http://www.wikipedia.org/wiki/Remote_procedure_call). btcd does
+**not** enable its RPC server by default; You must configure at minimum both an
 RPC username and password or both an RPC limited username and password:
 
 * btcd.conf configuration file

@@ -6,8 +6,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/dashpay/dashd-go/txscript"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/txscript"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 // PInput is a struct encapsulating all the data that can be attached to any

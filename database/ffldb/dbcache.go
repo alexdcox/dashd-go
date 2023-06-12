@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/alexdcox/dashd-go/database/internal/treap"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
-	"github.com/dashpay/dashd-go/database/internal/treap"
 )
 
 const (

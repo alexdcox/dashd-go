@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/dashpay/dashd-go/rpcclient"
+	"github.com/alexdcox/dashd-go/rpcclient"
 )
 
 func main() {

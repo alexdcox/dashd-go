@@ -1,14 +1,14 @@
 fullblocktests
 ==============
 
-[![Build Status](https://github.com/dashpay/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
+[![Build Status](https://github.com/alexdcox/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/btcsuite/btcd/blockchain/fullblocktests)
 
 Package fullblocktests provides a set of full block tests to be used for testing
-the consensus validation rules.  The tests are intended to be flexible enough to
+the consensus validation rules. The tests are intended to be flexible enough to
 allow both unit-style tests directly against the blockchain code as well as
-integration style tests over the peer-to-peer network.  To achieve that goal,
+integration style tests over the peer-to-peer network. To achieve that goal,
 each test contains additional information about the expected result, however
 that information can be ignored when doing comparison tests between two
 independent versions over the peer-to-peer network.

@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/dashpay/dashd-go/blockchain"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/database"
+	"github.com/alexdcox/dashd-go/blockchain"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/database"
 )
 
 var (

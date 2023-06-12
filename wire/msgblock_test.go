@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
 )
 

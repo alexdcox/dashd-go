@@ -13,10 +13,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dashpay/dashd-go/btcjson"
-	"github.com/dashpay/dashd-go/btcutil"
-	"github.com/dashpay/dashd-go/chaincfg"
-	flags "github.com/jessevdk/go-flags"
+	"github.com/alexdcox/dashd-go/btcjson"
+	"github.com/alexdcox/dashd-go/btcutil"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/jessevdk/go-flags"
 )
 
 const (

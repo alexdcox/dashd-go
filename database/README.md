@@ -1,7 +1,7 @@
 database
 ========
 
-[![Build Status](https://github.com/dashpay/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
+[![Build Status](https://github.com/alexdcox/dashd-go/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/btcsuite/btcd/database)
 
@@ -20,7 +20,7 @@ However, this package could be extremely useful for any applications requiring
 Bitcoin block storage capabilities.
 
 The default backend, ffldb, has a strong focus on speed, efficiency, and
-robustness.  It makes use of leveldb for the metadata, flat files for block
+robustness. It makes use of leveldb for the metadata, flat files for block
 storage, and strict checksums in key areas to ensure data integrity.
 
 ## Feature Overview

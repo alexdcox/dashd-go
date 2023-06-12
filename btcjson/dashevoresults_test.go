@@ -2,8 +2,9 @@ package btcjson_test
 
 import (
 	"encoding/json"
-	"github.com/dashpay/dashd-go/btcjson"
 	"testing"
+
+	"github.com/alexdcox/dashd-go/btcjson"
 )
 
 // TestDashQuorumSignResults ensures QuorumSignResults are unmarshalled correctly

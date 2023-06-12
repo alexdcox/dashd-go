@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

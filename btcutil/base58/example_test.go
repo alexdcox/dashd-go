@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/dashpay/dashd-go/btcutil/base58"
+	"github.com/alexdcox/dashd-go/btcutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

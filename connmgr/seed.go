@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dashpay/dashd-go/chaincfg"
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/chaincfg"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 const (

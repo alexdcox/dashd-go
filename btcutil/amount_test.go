@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/dashpay/dashd-go/btcutil"
+	. "github.com/alexdcox/dashd-go/btcutil"
 )
 
 func TestAmountCreation(t *testing.T) {

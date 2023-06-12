@@ -6,7 +6,7 @@ base58
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/btcsuite/btcd/btcutil/base58)
 
 Package base58 provides an API for encoding and decoding to and from the
-modified base58 encoding.  It also provides an API to do Base58Check encoding,
+modified base58 encoding. It also provides an API to do Base58Check encoding,
 as described [here](https://en.bitcoin.it/wiki/Base58Check_encoding).
 
 A comprehensive suite of tests is provided to ensure proper functionality.

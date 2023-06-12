@@ -7,7 +7,7 @@ package bloom_test
 import (
 	"testing"
 
-	"github.com/dashpay/dashd-go/btcutil/bloom"
+	"github.com/alexdcox/dashd-go/btcutil/bloom"
 )
 
 // TestMurmurHash3 ensure the MurmurHash3 function produces the correct hash

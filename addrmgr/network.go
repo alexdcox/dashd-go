@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/dashpay/dashd-go/wire"
+	"github.com/alexdcox/dashd-go/wire"
 )
 
 var (

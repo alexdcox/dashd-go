@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dashpay/dashd-go/btcutil"
-	//"github.com/davecgh/go-spew/spew"
+	"github.com/alexdcox/dashd-go/btcutil"
+	// "github.com/davecgh/go-spew/spew"
 )
 
 // TestNewTLSCertPair ensures the NewTLSCertPair function works as expected.

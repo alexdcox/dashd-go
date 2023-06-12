@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/dashpay/dashd-go/chaincfg/chainhash"
+	"github.com/alexdcox/dashd-go/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the
